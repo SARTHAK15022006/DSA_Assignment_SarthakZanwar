@@ -1,5 +1,7 @@
 Problem 2: Daily Temperatures (Stack)
+Link: https://leetcode.com/problems/daily-temperatures/submissions/1816740504/
 
 Used a monotonic decreasing stack to track indices of temperatures.
 When a warmer temperature is found, we calculate the difference in indices to find waiting days.
+
 Time Complexity: O(n), Space Complexity: O(n).
