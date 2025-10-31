@@ -1,0 +1,5 @@
+Problem 2: Daily Temperatures (Stack)
+
+Used a monotonic decreasing stack to track indices of temperatures.
+When a warmer temperature is found, we calculate the difference in indices to find waiting days.
+Time Complexity: O(n), Space Complexity: O(n).
